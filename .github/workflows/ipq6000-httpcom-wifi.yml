@@ -6,7 +6,7 @@
 # Youtube Channel: https://goo.gl/fvkdwm 
 #=================================================
 
-name: ipq6000-pro-wifi
+name: ipq6000-pro-wifi-httpcom
 
 on: 
   release:
@@ -20,7 +20,7 @@ on:
     - cron: 0 20 1 * *
   
   watch:
-   types: [started]
+    types: [started]
   
 
 jobs:
